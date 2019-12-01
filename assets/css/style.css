@@ -1,0 +1,32 @@
+body {
+    margin: 0 100px;
+    padding: 0;
+}
+
+.box1, .box3 {
+    background-color: rgb(243, 247, 245);
+    height: 1000px;
+    width: 100%;
+}
+
+.box2 {
+    background-image: url("../img/sky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 1;
+    height: 200px;
+    widows: 100%;
+}
+
+#content div {
+    width: 22%;
+    height: 185px;
+    float: left;
+    padding: 20px 0 0 25px;
+    text-align: center;
+    margin: 2.3px;
+}
+
+#content p {
+    color: #000000;
+}
